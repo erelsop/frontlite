@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Build output directories
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Log files
+npm-debug.log*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# TypeScript build outputs
+*.tsbuildinfo
+
+# SQL scripts (if developers are expected to supply their own)
+public/sql-scripts/
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Miscellaneous
+*.log
+*.temp
+*.tmp
+
+# lock file
+package-lock.json
